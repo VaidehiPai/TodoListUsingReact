@@ -1,2 +1,3 @@
 # TodoListUsingReact
-Creating  a Todo List Using Reacr
+Name:Vaidehi V Pai <br>
+Creating  a Todo List Using React
