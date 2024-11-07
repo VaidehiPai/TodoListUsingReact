@@ -10,7 +10,7 @@ function User(props) {
         </div>
         
         <div>
-        <Button color="green" onClick={() => props.handleDelete(props.user.id)}>
+        <Button color="green" onClick={() => props.handleDone(props.user.id)}>
           Done
         </Button>
         &nbsp;&nbsp;

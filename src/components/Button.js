@@ -5,7 +5,7 @@ function Button(props) {
       case 'green': { 
         return (
           <button
-            style={{ background: 'white', color: 'green',borderRadius:5,border:'1px solid green',alignContent:'center',width:'100px',height:'30px' }}
+            style={{ background: 'white', color: 'green',borderRadius:5,border:'1px solid green',alignContent:'center',width:'75px',height:'30px' }}
             onClick={props.onClick}
           >
             {props.children}
@@ -15,7 +15,7 @@ function Button(props) {
       case 'red': { 
         return (
           <button
-            style={{ background: 'white', color: 'red',borderRadius:5,border:'1px solid red',width:'100px',height:'30px'  }}
+            style={{ background: 'white', color: 'red',borderRadius:5,border:'1px solid red',width:'75px',height:'30px'  }}
             onClick={props.onClick}
           >
             {props.children}
